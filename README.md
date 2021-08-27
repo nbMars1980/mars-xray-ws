@@ -6,9 +6,14 @@
 
 ### 以下内容是根据原作者项目说明进行相应修改，方便初学者小白们理解！
 
+#### TG群：https://t.me/joinchat/nrUoeEJV_9UxNDhl
+
+#### YouTube频道：https://www.youtube.com/channel/UCxukdnZiXnTFvjF5B5dvJ5w
+
+
 ### 详细视频教程YouTube：更新中
    
-* 原作者的Heroku脚本为多协议共存脚本，该项目使用[xray](https://github.com/XTLS/Xray-core)+caddy，同时部署通过ws传输模式的vmess vless trojan-go shadowsocks socks等协议，默认已配置好伪装网站。  
+* 原作者的Heroku脚本为多协议共存脚本，该项目使用v2ray+caddy，同时部署通过ws传输模式的vmess vless trojan-go shadowsocks socks等协议，默认已配置好伪装网站。  
 
 ## 服务端创建操作流程 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/marsgrace/HK-xray-ws)  
@@ -16,7 +21,7 @@
 
 ## vmess vless trojan-go shadowsocks对应客户端参数的参考如下,末尾带()里的内容仅为提示
 
-## 1：Xray
+## 1：V2ray
 
 ### 代理协议：vless+ws+tls 或 vmess+ws+tls
 * 服务器地址：自选ip（如：icook.tw）或者：应用程序名.herokuapp.com
@@ -111,4 +116,3 @@ addEventListener(
 )
 ```
 
-### 原作者项目地址：https://github.com/mixool/xrayku

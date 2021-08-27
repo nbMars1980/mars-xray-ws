@@ -1,7 +1,7 @@
 {
-    "name": "xrayku",
-    "description": "xray websocket proxy on heroku",
-    "keywords": ["xray vmess vless trojan shadowsocks socks tor"],
+    "name": "hkok",
+    "description": "vless vmess deploy on heroku",
+    "keywords": ["vless vmess trojan shadowsocks socks tor"],
     "env": {
         "AA": {
             "description": "初阶用户只需修改以下AUUID点击页面最后的Deploy app按钮即可开始部署",
@@ -32,7 +32,6 @@
             "value": "https://raw.githubusercontent.com/YG-tsj/xrayku/master/etc/StoreFiles"
         }
     },
-    "website": "https://github.com/YG-tsj/xrayku",
-    "repository": "https://github.com/YG-tsj/xrayku",
+    "repository": "",
     "stack": "container"
 }
