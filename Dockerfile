@@ -23,7 +23,7 @@ COPY --from=builder /usr/bin/caddy /usr/bin/caddy
 RUN apk update && \
     apk add --no-cache --virtual ca-certificates caddy tor wget && \
     mkdir /xray && \    
-    mkdir -p /usr/share/caddy/$AUUID && wget -O /usr/share/caddy/$AUUID/StoreFiles https://raw.githubusercontent.com/marsgrace/mars-xray-ws/main/etc/StoreFiles && \
+    mkdir -p /usr/share/caddy/$AUUID && wget -O /usr/share/caddy/$AUUID/StoreFiles https://raw.githubusercontent.com/nbMars1980/mars-xray-ws/main/etc/StoreFiles && \
     wget -P /usr/share/caddy/$AUUID -i /usr/share/caddy/$AUUID/StoreFiles && \
     chmod +x /xray && \
     rm -rf /var/cache/apk/*
